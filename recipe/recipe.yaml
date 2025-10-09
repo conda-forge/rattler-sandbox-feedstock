@@ -1,6 +1,6 @@
 context:
   name: rattler-sandbox
-  version: "0.2.0"
+  version: "0.2.1"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/conda/rattler/archive/rattler_sandbox-v${{ version }}.tar.gz
-  sha256: 8bcbaaf355c5d1cf2bcb7731434feff85d040579b4c0a8f499117be88530e975
+  sha256: 2902263e473b393526cee9cee7ad373ecc0912865efceeee094d9f98b9a42c29
 
 build:
   number: 0
